@@ -1,0 +1,14 @@
+/* button.css */
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
