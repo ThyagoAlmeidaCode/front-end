@@ -1,0 +1,24 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    padding: 20px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-main {
+    font-size: 16px;
+    color: #666;
+}
+
+.card-footer button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
