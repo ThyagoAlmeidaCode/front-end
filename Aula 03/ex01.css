@@ -15,8 +15,6 @@ body{
 }
 
 .card {
-   display: flex;
-   flex-direction: column;
    width: 50vw;
    height: 50vh;
    background-color: #F2CDA0;
@@ -28,18 +26,17 @@ body{
 }
 
 .card-header{
-    display: flex;  
-    position: relative;   
-    height: 15vh;   
+    display: flex;      
+    height: 15vh;
     justify-content: center;
     align-items: center;   
 }
 .card-header img{
     margin-top: 5%;  
     width: auto;
-    height: 50vh;  
-    
+    height: 50vh;    
 }
+
 .card-main {      
     padding: 8%;
     font-size: 20px;
@@ -50,7 +47,7 @@ body{
 
 .card-footer button {
     background-color: #063540;
-    color: white;
+    color: #F2F2F2;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
