@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container{
+    max-width: 90vw; /* Largura máxima do container */
+    margin: 0 auto;    /* Centraliza horizontalmente */   
+}
+
+header{
+    width: 100vw;
+    height: 98px;
+    padding: 8px 8px 8px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #BF8450;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+header img{
+    width: 85px;
+    height: 92px;
+    background: #00000000;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.menu li{
+    display: inline; /* Coloca os items em linha  */
+    margin-right: 20px; /* Espaçamento entre os itens */
+   align-items: end;
+}
