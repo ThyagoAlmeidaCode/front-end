@@ -1,7 +1,7 @@
 *{
     margin: 0;
     border: 0;
-    padding: 0;    
+    padding: 0; 
 }
 
 header{
@@ -16,8 +16,20 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: #f8f5f5;
     width: 100vw;
     height: 100vh;
+    
+}
+
+#logo{
+    width: 15em;
+    height: auto;
+    background: #00000000;
+    border-radius: 215px 215px 215px 215px;
+    margin-top: -10em;
+    margin-bottom: 2em;
 }
 
 .box_login{
@@ -61,6 +73,38 @@ main{
     font-weight: 400;
     font-size: 14px;
     text-align: center;
+    cursor: pointer;
 }
 
+.box_login button:hover{
+    background-color: #204959;
+}
 
+/* responsivo */
+
+@media only screen and (min-width: 480px){
+    header{
+        width: 100vw;
+        height: 3em;
+    }
+
+    main #img{
+        width: 30em;
+        height: 30em;
+    }
+
+    .box_login{
+        width: 18em;
+        height: 18em;
+    }
+
+    .box_login input{
+        width: 15em;
+        height: 3em;
+    }
+
+    .box_login button{
+        width: 16em;
+        height: 3em;
+    }
+}
